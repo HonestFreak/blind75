@@ -1,7 +1,7 @@
+//leetcode 151
 #include<iostream>
 #include<vector>
 using namespace std;
-//leetcode 151
 
 int maxProfit(vector<int>& prices) {
         int profit = 0;
