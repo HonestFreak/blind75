@@ -16,7 +16,7 @@ int sum(int a, int b){
 
 //recursive method (beats 100% in runtime)
 int sumrec(int a, int b){
-    if( b ==0 ) return a;
+    if( b ==0 ) return a;   //base case
     int c = a&b;
     a = a^b;
     b = (unsigned int) (c)<<1;
